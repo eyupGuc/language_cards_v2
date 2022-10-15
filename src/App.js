@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <Container>
+    <Container className="text-center mt-4">
       <Header /> <Card />
     </Container>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Language = () => {
+const Language = ({Lang}) => {
+    console.log(Lang);
   return (
     <div>Language</div>
   )
