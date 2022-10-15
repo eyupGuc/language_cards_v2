@@ -16,6 +16,11 @@ const Language = ({ name, options, img }) => {
         <Image src={img} width="70%"></Image>
         <h3 className="display-6">{name}</h3>
       </Container>
+      <ol>
+        {options.map((item)=>{
+            return(<li className="h5 text-start">{item}</li>)
+        })}
+      </ol>
     </Container>
   );
 };
