@@ -1,10 +1,17 @@
-import React from 'react'
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 
-const Language = ({Lang}) => {
-    console.log(Lang);
+const Language = ({ name, options, img }) => {
+//   console.log(Lang);
   return (
-    <div>Language</div>
-  )
-}
+    <Container style={{background:"peachpuff"}} className="p-4 rounded-2">
+      <Container>
+        <Image src={img} width="70%"></Image>
+        <h3 className="display-6">{name}</h3>
+      </Container>
+    </Container>
+  );
+};
 
-export default Language
+export default Language;
