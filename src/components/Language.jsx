@@ -17,7 +17,7 @@ const Language = ({ name, options, img }) => {
         <h3 className="display-6">{name}</h3>
       </Container>)}
      
-      <ol className="h-100">
+      <ol className="h-100 d-flex flex-column justify-container-center">
         {options.map((item)=>{
             return(<li className="h5 text-start">{item}</li>)
         })}
