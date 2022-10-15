@@ -9,4 +9,13 @@ body {
 
 }
 
+/*!language component styling*/
+.lang-card:hover{
+  box-shadow:3px 3px 20px 5px rgba(0,0,0,0,5)
+}
+.lang-Logo{
+  transition: transform;
+}
+
+
 
