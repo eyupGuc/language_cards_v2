@@ -1,8 +1,12 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Image from 'react-bootstrap/Image';
+import reactLogo from '../assets/react.svg';
+
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Container><Image fluid src={reactLogo} width="250px"/></Container>
   )
 }
 
