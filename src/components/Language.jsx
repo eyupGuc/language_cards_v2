@@ -9,7 +9,7 @@ const Language = ({ name, options, img }) => {
   return (
     <Container
       style={{ background: "peachpuff" }}
-      className="p-4 rounded-2 h-100"
+      className="p-4 rounded-2 h-100 lang-card"
       onClick={() => setShowImage(!showImage)}
     >
         {showImage && ( <Container>
